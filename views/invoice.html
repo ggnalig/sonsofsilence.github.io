@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Sons of Silence</title>
+    <title>SOS - Shipment Tracking</title>
     <link rel="icon" href="../img/icon.png" type="image/gif" sizes="16x16">
 </head>
 <body style="background-color: #121212;">
@@ -22,9 +22,24 @@
             <li><a href="../index.html">Home</a></li>
         </ul>
     </div>
-    <div class="content-container">
-        
+    
+    <div class="invoice">
+             <h5>Track Your Shipment</h5>
+        </div>
     </div>
+
+    <div class="content-container">
+        <form> 
+            <h1>
+                <form action="/action_page.php">
+                    <label for="number">INVOICE NUMBER:</label><br>
+                    <input type="text" id="number" name="number" required pattern ="[0-9]{16}"><br>
+                    <input type="submit" value="Check">
+                </form> 
+            </h1>
+        </form>
+    </div>
+
     <div class="footer">
         <h4>Group#6-hacktiv8-queen-fox 2020</h4>
     </div>
