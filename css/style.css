@@ -181,3 +181,62 @@ ul#filter li a{
     text-align: center;
     padding-top: 30px;
 }
+
+.testi {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.container p{
+    color: black;
+}
+
+.content-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    text-align:center;
+}
+
+.container {
+    border: 5px solid #ccc;
+    background-color: white;
+    border-radius: 20px;
+    padding: 16px;
+    margin: 16px;
+    height: 200px;
+    width: 400px;
+  }
+
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .container img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  .container span {
+    font-size: 25px;
+  }
+  
+  @media (max-width: 500px) {
+    .container {
+      text-align: center;
+    }
+  
+    .container img {
+      margin: auto;
+      float: none;
+      display: block;
+    }
+  }
