@@ -15,33 +15,33 @@
         <ul>
             <li><a href="login.html">Login</a></li>
             <li><a href="register.html">Ride with Us</a></li>
-            <li><a href="cart.html">Cart</a></li>
             <li><a class="active"href="invoice.html">Invoice</a></li>
             <li><a href="aboutus.html">About Us</a></li>
             <li><a href="products.html">Products</a></li>
             <li><a href="../index.html">Home</a></li>
         </ul>
     </div>
-    
-    <div class="invoice">
-             <h5>Track Your Shipment</h5>
-        </div>
-    </div>
-
     <div class="content-container">
-        <form> 
-            <h1>
-                <form action="/action_page.php">
-                    <label for="number">INVOICE NUMBER:</label><br>
-                    <input type="text" id="number" name="number" required pattern ="[0-9]{16}"><br>
-                    <input type="submit" value="Check">
-                </form> 
-            </h1>
-        </form>
     </div>
+    <form id="content-container"> 
+    <form action="/action_page.php">
+        <div id="container-register">
+            <h1 style="color: black;">Tracking Shipment</h1>
+            <p style="color: black;">INVOICE NUMBER:</p>
+            <hr>
+            
+            <label for="email"><b>Invoice Number</b></label>
+            <input type="text" id="invoicex" placeholder="16 digits invoice number" name="invoicenum" pattern ="[0-9]{16}" required>
+            
+            <button type="submit" id="invoicex" class="registerbtn">Check</button>
+        </div>
+        </div>
+    </form>  
+</div>
+</div>
 
-    <div class="footer">
-        <h4>Group#6-hacktiv8-queen-fox 2020</h4>
-    </div>
+<div class="footer">
+    <h4>Group#6-hacktiv8-queen-fox 2020</h4>
+</div>
 </body>
 </html>

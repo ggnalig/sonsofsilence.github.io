@@ -95,6 +95,14 @@ ul#filter li a{
     text-align:center;
 }
 
+#content-container {;
+    justify-content: center;
+    padding: 30px 30px 30px 30px;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    text-align:center;
+}
+
 #about {
     text-align: center;
     color: white;
@@ -107,8 +115,8 @@ ul#filter li a{
     background-position: bottom center;
     height: 500px;
     width: 100%;
-  }
-  
+}
+
 #content {
     margin: auto;
     z-index: 2;
@@ -123,11 +131,11 @@ ul#filter li a{
     top: 200px;
 }
 
-  #banner .content h1 {
+#banner .content h1 {
     position: relative;
     padding: 50px;
     margin: 0 auto;
-  }
+}
 
 .content-item {
     border: 0px solid rgba(0, 0, 0, 0.8);
@@ -229,36 +237,137 @@ ul#filter li a{
 .container {
     border: 5px solid #ccc;
     background-color: white;
-    border-radius: 20px;
     padding: 16px;
     margin: 16px;
     height: 200px;
     width: 400px;
-  }
+}
 
-  .container::after {
+.container::after {
     content: "";
     clear: both;
     display: table;
-  }
+}
 
-  .container img {
+.container img {
     float: left;
     margin-right: 20px;
-    border-radius: 50%;
-  }
+}
 
-  .container span {
+.container2 {
+    border: 5px solid #ccc;
+    background-color: white;
+    padding: 16px;
+    margin: 16px;
+    height: 200px;
+    width: 400px;
+}
+
+.container2::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container2 img {
+    float: center;
+    margin-right: auto;
+}
+
+.container span {
     font-size: 25px;
-  }
+}
 
-  @media (max-width: 500px) {
+@media (max-width: 500px) {
     .container {
-      text-align: center;
+        text-align: center;
     }
-
+    
     .container img {
-      margin: auto;
-      float: none;
-      display: block;
+        margin: auto;
+        float: none;
+        display: block;
     }
+}
+
+#container-register {
+    padding: 16px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding-top: 20px;
+    margin: auto;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.registerbtn {
+    background-color: grey;
+    color:black;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+    color: white;
+    background-color: black;
+}
+
+a {
+    color: dodgerblue;
+}
+
+.signin {
+    color: grey;
+    text-align: center;
+}
+
+#trms {
+    color: black;
+}
+
+#trms:hover {
+    color: blue;
+}
+
+#sgn {
+    color: white;
+}
+
+#sgn:hover {
+    color: blue;
+}
+
+#number {
+    width: 300px;
+}
+
+#invoicex {
+    size: 300px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#inputs {
+    text-align: center;
+    font-size: 15px;
+}

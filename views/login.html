@@ -15,7 +15,6 @@
         <ul>
             <li><a class="active" href="login.html">Login</a></li>
             <li><a href="register.html">Ride with Us</a></li>
-            <li><a href="cart.html">Cart</a></li>
             <li><a href="invoice.html">Invoice</a></li>
             <li><a href="aboutus.html">About Us</a></li>
             <li><a href="products.html">Products</a></li>
@@ -23,28 +22,28 @@
         </ul>
     </div>
     <div class="content-container">
-    
-    <div>
-        <form>
-            <h1 >LOGIN</h1>
-            <h3>To start online consultation or make an appointment. <br><br>
-                Make sure your time will not be wasted!</h3>
-            <label for="username">Username:</label>
-            <input type="text" name="username" id="username">
-    <br>
-    <br>
-            <label for="user-pw">Password:</label>
-            <input type="password" id="user-pw" name="user-pw">
-        </form>
-    <br>
-        <h4>No Account?<a href="signup.html">Sign Up</a></h4>
-        
-    </div>    
-
-
+        <form action="/action_page.php">
+            <div id="container-register">
+                <h1 style="color: black;">LOGIN</h1>
+                <p style="color: black;">To start online consultation or make an appointment.</p>
+                <hr>
+                
+                <label for="email"><b>Username</b></label>
+                <input type="text" id="inputs" placeholder="Username" name="username" required>
+                
+                <label for="psw"><b>Password</b></label>
+                <input type="password" id="inputs" placeholder="Password" name="psw" required>
+                
+                <button type="submit" class="registerbtn">Login</button>
+            </div>
+            
+            <div id="container-register signin">
+                <p>No Account? <a href="register.html" id="sgn">Sign Up</a>.</p>
+            </div>
+        </form>  
     </div>
-    <div class="footer">
-        <h4>Group#6-hacktiv8-queen-fox 2020</h4>
-    </div>
-</body>
-</html>
+        <div class="footer">
+            <h4>Group#6-hacktiv8-queen-fox 2020</h4>
+        </div>
+    </body>
+    </html>
