@@ -109,6 +109,20 @@ ul#filter li a{
     width: 100%;
   }
   
+#content {
+    margin: auto;
+    z-index: 2;
+    background-color: rgba(0,0,0, 0.5);
+    height: 500px;
+    width: auto;
+    text-align: center;
+}
+
+#content h1{
+    position: relative;
+    top: 200px;
+}
+
   #banner .content h1 {
     position: relative;
     padding: 50px;
@@ -137,6 +151,10 @@ ul#filter li a{
 .card h2{
     font-size: 15px;
     padding: 10px;
+}
+
+#fntcolor {
+    color: black;
 }
 
 .price {
@@ -181,3 +199,4 @@ ul#filter li a{
     text-align: center;
     padding-top: 30px;
 }
+
