@@ -1,0 +1,162 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    background-color: #121212;
+    height: 150px;
+    width: 100%;
+    text-align: right;
+}
+
+.header img {
+    padding-top: 30px;
+    float: left;
+}
+
+#header-container {
+    width: 100vw;
+    margin: auto;
+    height: 70px;
+}
+
+.header ul {
+    padding-right: 100px;
+    padding-top: 0px;
+    margin: 0px;
+    text-align: center;
+    display:inline-block;
+    vertical-align:top;
+}
+
+.header li {
+    list-style-type: none;
+    padding: 0px;
+    height: 24px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline;
+}
+
+.nav {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+.header li a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.header a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.header a.active {
+    background-color: rgb(126, 126, 126);
+    color: white;
+}
+
+ul#filter{
+    color: white;
+}
+
+ul#filter li {
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+}
+
+ul#filter li a{
+    text-decoration: none;
+    color: white;
+}
+
+.content-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto;
+    padding: 30px 30px 30px 30px;
+    background-color: rgb(34, 34, 34);
+}
+
+#about {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+
+.content-item {
+    border: 0px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+}
+
+.card {
+    background-color: white;;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.card img {
+    width: 100%;
+    margin: 20px;
+}
+
+.card h2{
+    font-size: 15px;
+    padding: 10px;
+}
+
+.price {
+    color: black;
+    font-size: 18px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    background-color: grey;
+    color: black;
+}
+
+#page {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#page:hover {
+    color: white;
+    
+}
+
+.footer{
+    color: white;
+    height: 50px;
+    text-align: center;
+    padding-top: 30px;
+}
